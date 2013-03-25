@@ -25,17 +25,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int dummy_button=0x7f070002;
-        public static final int fullscreen_content=0x7f070000;
-        public static final int fullscreen_content_controls=0x7f070001;
+        public static final int datePicker1=0x7f070004;
+        public static final int dummy_button=0x7f070001;
+        public static final int editText1=0x7f070005;
+        public static final int editText2=0x7f070006;
+        public static final int editText3=0x7f070007;
+        public static final int fullscreen_content_controls=0x7f070000;
+        public static final int radioButton1=0x7f070002;
+        public static final int radioButton2=0x7f070003;
     }
     public static final class layout {
         public static final int activity_fullscreen=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int dummy_button=0x7f050002;
-        public static final int dummy_content=0x7f050001;
+        public static final int expence_checkbox=0x7f050002;
+        public static final int income_checkbox=0x7f050003;
+        public static final int submit_button=0x7f050001;
     }
     public static final class style {
         /** 

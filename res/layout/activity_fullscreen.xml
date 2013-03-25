@@ -4,29 +4,22 @@
     android:layout_height="match_parent"
     android:background="#0099cc"
     tools:context=".FullscreenActivity" >
-
-    <!--
-         The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc.
-    -->
-
-    <TextView
-        android:id="@+id/fullscreen_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/dummy_content"
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
-        android:textStyle="bold" />
-
-    <!--
-         This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows.
-    -->
-
+    <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/expence_checkbox" />
+        
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/income_checkbox" />
+    
+    
+    
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,8 +41,37 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:text="@string/submit_button" />
         </LinearLayout>
+
+        
+
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
     </FrameLayout>
 
 </FrameLayout>

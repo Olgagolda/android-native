@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">DMS</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="dummy_button">Dummy Button</string>
-
+    <string name="submit_button">Submit</string>
+    <string name="expence_checkbox">Expence</string>
+    <string name="income_checkbox">Income</string>
 </resources>
