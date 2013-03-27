@@ -5,4 +5,10 @@
     <string name="submit_button">Submit</string>
     <string name="expence_checkbox">Expence</string>
     <string name="income_checkbox">Income</string>
+    
+    <string name="road_text_label">Road{float}</string>
+    <string name="food_text_label">Food{float}</string>
+    <string name="drugs_text_label">Drugs{float}</string>
+    <string name="other_text_label">Other{float}</string>
+    <string name="comment_text_label">Comment{float}</string>
 </resources>
