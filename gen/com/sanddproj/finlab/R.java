@@ -20,12 +20,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class color {
         public static final int black_overlay=0x7f040000;
+        public static final int gray=0x7f040001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
         public static final int button1=0x7f07000a;
+        public static final int button2=0x7f07000c;
         public static final int datePicker1=0x7f070003;
         public static final int editText1=0x7f070009;
         public static final int editText2=0x7f070005;
@@ -43,15 +45,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_login=0x7f030001;
     }
     public static final class string {
-        public static final int app_name=0x7f050001;
-        public static final int comment_text_label=0x7f050009;
-        public static final int drugs_text_label=0x7f050007;
-        public static final int expence_checkbox=0x7f050003;
-        public static final int food_text_label=0x7f050006;
-        public static final int income_checkbox=0x7f050004;
-        public static final int other_text_label=0x7f050008;
-        public static final int road_text_label=0x7f050005;
-        public static final int submit_button=0x7f050002;
+        public static final int app_name=0x7f050002;
+        public static final int comment_text_label=0x7f05000a;
+        public static final int drugs_text_label=0x7f050008;
+        public static final int expence_checkbox=0x7f050004;
+        public static final int food_text_label=0x7f050007;
+        public static final int income_checkbox=0x7f050005;
+        public static final int other_text_label=0x7f050009;
+        public static final int road_text_label=0x7f050006;
+        public static final int submit_button=0x7f050003;
+        public static final int temporary_next_button=0x7f050001;
         public static final int welcome=0x7f050000;
     }
     public static final class style {

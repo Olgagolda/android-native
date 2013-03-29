@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome">Welcome to FinLab Project</string>
+    <string name="temporary_next_button">next screen[temporary]</string>
         
     <string name="app_name">FinLabPilot</string>
     <string name="submit_button">Submit</string>
