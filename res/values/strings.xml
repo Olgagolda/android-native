@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">DMS</string>
+    <string name="app_name">FinLabPilot</string>
     <string name="submit_button">Submit</string>
     <string name="expence_checkbox">Expence</string>
     <string name="income_checkbox">Income</string>
