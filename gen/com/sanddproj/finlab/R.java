@@ -19,15 +19,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int buttonBarStyle=0x7f010000;
     }
     public static final class color {
-        public static final int black_overlay=0x7f040000;
-        public static final int gray=0x7f040001;
+        public static final int gray=0x7f040000;
+        public static final int white=0x7f040001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
         public static final int button1=0x7f07000a;
-        public static final int button2=0x7f07000c;
+        public static final int button2=0x7f07000d;
         public static final int datePicker1=0x7f070003;
         public static final int editText1=0x7f070009;
         public static final int editText2=0x7f070005;
@@ -35,6 +35,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int editText4=0x7f070007;
         public static final int editText5=0x7f070008;
         public static final int fullscreen_content_controls2=0x7f070004;
+        public static final int imageView1=0x7f07000c;
         public static final int radioButton1=0x7f070002;
         public static final int radioButton2=0x7f070001;
         public static final int radioSex=0x7f070000;
@@ -45,16 +46,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_login=0x7f030001;
     }
     public static final class string {
-        public static final int app_name=0x7f050002;
-        public static final int comment_text_label=0x7f05000a;
-        public static final int drugs_text_label=0x7f050008;
-        public static final int expence_checkbox=0x7f050004;
-        public static final int food_text_label=0x7f050007;
-        public static final int income_checkbox=0x7f050005;
-        public static final int other_text_label=0x7f050009;
-        public static final int road_text_label=0x7f050006;
-        public static final int submit_button=0x7f050003;
-        public static final int temporary_next_button=0x7f050001;
+        public static final int app_name=0x7f050003;
+        public static final int comment_text_label=0x7f05000b;
+        public static final int drugs_text_label=0x7f050009;
+        public static final int expence_checkbox=0x7f050005;
+        public static final int food_text_label=0x7f050008;
+        public static final int income_checkbox=0x7f050006;
+        public static final int logo=0x7f050001;
+        public static final int other_text_label=0x7f05000a;
+        public static final int road_text_label=0x7f050007;
+        public static final int submit_button=0x7f050004;
+        public static final int temporary_next_button=0x7f050002;
         public static final int welcome=0x7f050000;
     }
     public static final class style {
@@ -93,12 +95,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int FullscreenTheme=0x7f060004;
     }
     public static final class styleable {
-        /** 
-         Declare custom theme attributes that allow changing which styles are
-         used for button bars depending on the API level.
-         ?android:attr/buttonBarStyle is new as of API 11 so this is
-         necessary to support previous API levels.
-    
+        /** Attributes that can be used with a ButtonBarContainerTheme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
