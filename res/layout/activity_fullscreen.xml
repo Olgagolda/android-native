@@ -1,8 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/gray">
+    android:background="@color/gray"
+    android:orientation="vertical" >
 
     <RadioGroup
         android:id="@+id/radioSex"
@@ -32,62 +32,65 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/gray"/>
+        android:background="@color/gray" />
 
-
-    <LinearLayout
-        android:id="@+id/fullscreen_content_controls2"
+    <ScrollView
+        android:id="@+id/scrollView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content" >
 
-        <EditText
-            android:id="@+id/editText2"
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/road_text_label"
-            android:inputType="text" />
+            android:orientation="vertical" >
 
-        <EditText
-            android:id="@+id/editText3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/food_text_label"
-            android:inputType="text" />
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/road_text_label"
+                android:inputType="text" />
 
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/drugs_text_label"
-            android:inputType="text" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/food_text_label"
+                android:inputType="text" />
 
-        <EditText
-            android:id="@+id/editText5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/other_text_label"
-            android:inputType="text" />
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/drugs_text_label"
+                android:inputType="text" />
 
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/comment_text_label"
-            android:inputType="text" >
-        </EditText>
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/other_text_label"
+                android:inputType="text" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="142dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:text="@string/submit_button" />
-    </LinearLayout>
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/comment_text_label"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/submit_button" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
